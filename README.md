@@ -1,6 +1,12 @@
 # mlops_pirate
 MLOps "producionalizing" an ipynb
 
+IMPORTANT: this readme was created for a different project and should be followed only very roughly and almost performed all steps allready...
+
+dont create day1 folder
+notebook name is different
+
+
 ## day 1
 
 this project is based on https://github.com/alexeygrigorev/ml-engineering-contsructor-workshop
