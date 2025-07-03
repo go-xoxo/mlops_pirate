@@ -1,0 +1,18 @@
+[project]
+name = "mlops-pirate"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "loguru>=0.7.3",
+    "pandas>=2.3.0",
+    "pyarrow>=20.0.0",
+    "scikit-learn>=1.7.0",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+    "seaborn>=0.13.2",
+]
