@@ -9,6 +9,8 @@ dependencies = [
     "pandas>=2.3.0",
     "pyarrow>=20.0.0",
     "scikit-learn>=1.7.0",
+    "openai>=1.0.0",
+    "fpdf2>=2.7.8",
 ]
 
 [dependency-groups]
