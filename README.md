@@ -69,3 +69,19 @@ now we can run our training via `make train`
 - create a `__init__.py` file inside of `tests`
 - create a file `test_train.py` inside of `tests` (it has to start with `test_`)
 - run tests via `uv run pytest` or `make test`
+
+## Supermarkt challenge / OpenAI export
+
+The repository now contains a small example that demonstrates how to use
+OpenAI's vision models to parse an image and export the recognised text
+to both JSON and PDF files.  The script is called
+`supermarkt_openai_export.py` and expects the environment variable
+`OPENAI_API_KEY` to be defined.
+
+```bash
+python supermarkt_openai_export.py
+```
+
+By default it processes the résumé image used in the discussion and
+creates `supermarkt_output.json` and `supermarkt_output.pdf` in the
+current directory.
